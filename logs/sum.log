@@ -1,0 +1,17 @@
+2024-04-24 22:56:02.890 [TRACE] [Thread 0] - Added 0 to the sum. Current sum: 0
+2024-04-24 22:56:02.891 [TRACE] [Thread 1] - Added 0 to the sum. Current sum: 0
+2024-04-24 22:56:02.891 [TRACE] [Thread 2] - Added 0 to the sum. Current sum: 0
+2024-04-24 22:56:02.891 [TRACE] [Thread 3] - Added 0 to the sum. Current sum: 0
+2024-04-24 22:56:02.993 [TRACE] [Thread 0] - Added 1 to the sum. Current sum: 1
+2024-04-24 22:56:02.993 [TRACE] [Thread 2] - Added 1 to the sum. Current sum: 2
+2024-04-24 22:56:02.993 [TRACE] [Thread 3] - Added 1 to the sum. Current sum: 3
+2024-04-24 22:56:02.993 [TRACE] [Thread 1] - Added 1 to the sum. Current sum: 4
+2024-04-24 22:56:03.094 [TRACE] [Thread 0] - Added 2 to the sum. Current sum: 6
+2024-04-24 22:56:03.094 [TRACE] [Thread 2] - Added 2 to the sum. Current sum: 8
+2024-04-24 22:56:03.103 [TRACE] [Thread 1] - Added 2 to the sum. Current sum: 10
+2024-04-24 22:56:03.103 [TRACE] [Thread 3] - Added 2 to the sum. Current sum: 12
+2024-04-24 22:56:03.195 [TRACE] [Thread 0] - Added 3 to the sum. Current sum: 15
+2024-04-24 22:56:03.195 [TRACE] [Thread 2] - Added 3 to the sum. Current sum: 18
+2024-04-24 22:56:03.211 [TRACE] [Thread 3] - Added 3 to the sum. Current sum: 21
+2024-04-24 22:56:03.211 [TRACE] [Thread 1] - Added 3 to the sum. Current sum: 24
+2024-04-24 22:56:03.321 [TRACE] [main] - Returning sum: 24

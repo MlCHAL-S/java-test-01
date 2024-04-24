@@ -1,0 +1,26 @@
+2024-04-24 22:56:02.888 [TRACE] [main] - Starting calculation with 4 threads
+2024-04-24 22:56:02.890 [TRACE] [main] - Thread Thread 0 started
+2024-04-24 22:56:02.891 [TRACE] [main] - Thread Thread 1 started
+2024-04-24 22:56:02.891 [TRACE] [main] - Thread Thread 2 started
+2024-04-24 22:56:02.891 [TRACE] [Thread 0] - Thread Thread 0 added 0 to the sum
+2024-04-24 22:56:02.891 [TRACE] [main] - Thread Thread 3 started
+2024-04-24 22:56:02.891 [TRACE] [Thread 1] - Thread Thread 1 added 0 to the sum
+2024-04-24 22:56:02.891 [TRACE] [Thread 2] - Thread Thread 2 added 0 to the sum
+2024-04-24 22:56:02.891 [TRACE] [Thread 3] - Thread Thread 3 added 0 to the sum
+2024-04-24 22:56:02.993 [TRACE] [Thread 0] - Thread Thread 0 added 1 to the sum
+2024-04-24 22:56:02.993 [TRACE] [Thread 2] - Thread Thread 2 added 1 to the sum
+2024-04-24 22:56:02.993 [TRACE] [Thread 3] - Thread Thread 3 added 1 to the sum
+2024-04-24 22:56:02.994 [TRACE] [Thread 1] - Thread Thread 1 added 1 to the sum
+2024-04-24 22:56:03.094 [TRACE] [Thread 0] - Thread Thread 0 added 2 to the sum
+2024-04-24 22:56:03.094 [TRACE] [Thread 2] - Thread Thread 2 added 2 to the sum
+2024-04-24 22:56:03.103 [TRACE] [Thread 1] - Thread Thread 1 added 2 to the sum
+2024-04-24 22:56:03.103 [TRACE] [Thread 3] - Thread Thread 3 added 2 to the sum
+2024-04-24 22:56:03.195 [TRACE] [Thread 0] - Thread Thread 0 added 3 to the sum
+2024-04-24 22:56:03.195 [TRACE] [Thread 2] - Thread Thread 2 added 3 to the sum
+2024-04-24 22:56:03.211 [TRACE] [Thread 3] - Thread Thread 3 added 3 to the sum
+2024-04-24 22:56:03.211 [TRACE] [Thread 1] - Thread Thread 1 added 3 to the sum
+2024-04-24 22:56:03.306 [TRACE] [Thread 2] - Thread Thread 2 finished
+2024-04-24 22:56:03.306 [TRACE] [Thread 0] - Thread Thread 0 finished
+2024-04-24 22:56:03.321 [TRACE] [Thread 1] - Thread Thread 1 finished
+2024-04-24 22:56:03.321 [TRACE] [main] - All threads finished calculation
+2024-04-24 22:56:03.321 [TRACE] [Thread 3] - Thread Thread 3 finished

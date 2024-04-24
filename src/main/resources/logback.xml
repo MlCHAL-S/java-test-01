@@ -1,0 +1,58 @@
+<configuration>
+
+    <appender name="SumFile" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>logs/sum.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>logs/sum-%d{yyyy-MM-dd}.log</fileNamePattern>
+            <maxHistory>30</maxHistory>
+        </rollingPolicy>
+        <encoder>
+            <pattern>%date{yyyy-MM-dd HH:mm:ss.SSS} [%-5level] [%thread] - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="ThreadSumFile" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>logs/threadsum.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>logs/threadsum-%d{yyyy-MM-dd}.log</fileNamePattern>
+            <maxHistory>30</maxHistory>
+        </rollingPolicy>
+        <encoder>
+            <pattern>%date{yyyy-MM-dd HH:mm:ss.SSS} [%-5level] [%thread] - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="AppFile" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>logs/app.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>logs/app-%d{yyyy-MM-dd}.log</fileNamePattern>
+            <maxHistory>30</maxHistory>
+        </rollingPolicy>
+        <encoder>
+            <pattern>%date{yyyy-MM-dd HH:mm:ss.SSS} [%-5level] [%thread] - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <logger name="org.example.SumImplementation" level="TRACE" additivity="true">
+        <appender-ref ref="SumFile"/>
+    </logger>
+
+    <logger name="org.example.ThreadSumImplementation" level="TRACE" additivity="true">
+        <appender-ref ref="ThreadSumFile"/>
+    </logger>
+
+    <logger name="org.example.App" level="TRACE" additivity="true">
+        <appender-ref ref="AppFile"/>
+    </logger>
+
+    <root level="INFO">
+        <appender-ref ref="Console"/>
+    </root>
+
+    <appender name="Console" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>[%thread] - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+</configuration>
